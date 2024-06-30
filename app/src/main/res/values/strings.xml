@@ -81,6 +81,7 @@
     <string name="post_description">Post Description</string>
     <string name="enter_post_description">Enter post description</string>
     <string name="post_author">Post Author</string>
+    <string name="enter_owner_name">Enter book owner name</string>
 
 <!--    navigation strings-->
     <string name="menu_navbar_home">Home</string>

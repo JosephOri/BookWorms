@@ -90,18 +90,6 @@
                     app:layout_constraintBottom_toBottomOf="parent"
                     android:layout_marginBottom="10dp"/>
 
-                <ImageView
-                    android:id="@+id/cameraButton"
-                    android:layout_width="40dp"
-                    android:layout_height="40dp"
-                    android:layout_marginBottom="10dp"
-                    android:scaleType="fitXY"
-                    android:contentDescription="@string/camera_button"
-                    android:src="@drawable/ic_camera"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintBottom_toBottomOf="parent"
-
-                    />
             </LinearLayout>
 
             <LinearLayout
@@ -151,7 +139,24 @@
                         android:layout_height="match_parent"
                         android:hint="@string/enter_post_description" />
                 </com.google.android.material.textfield.TextInputLayout>
+                <com.google.android.material.textfield.TextInputLayout
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:id="@+id/book_owner_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:textColorHint="@color/black"
+                    android:textColor="@color/black"
+                    android:layout_gravity="center_horizontal">
 
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/book_owner_input"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:hint="@string/enter_owner_name" />
+                </com.google.android.material.textfield.TextInputLayout>
                 <com.google.android.material.button.MaterialButton
                     android:id="@+id/addPostButton"
                     android:layout_width="wrap_content"
